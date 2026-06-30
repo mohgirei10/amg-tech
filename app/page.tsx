@@ -2,7 +2,6 @@ import Image from "next/image";
 import { Montserrat } from "next/font/google";
 import { MapPin, Phone, Mail, Send } from "lucide-react";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
-import Sidebar from "../app/components/Sidebar";
 import { 
   SiNodedotjs, 
   SiTailwindcss, 
@@ -28,8 +27,6 @@ export default function Portfolio() {
   return (
     <div className={`${montserrat.className} bg-zinc-50 dark:bg-black min-h-screen text-zinc-600 dark:text-zinc-400 scroll-smooth transition-colors duration-300`}>
       
-      <Sidebar />
-
       {/* Added pb-24 for mobile to ensure content isn't hidden behind the bottom navbar */}
       <main className="md:ml-30 p-12 md:p-12 pb-24 md:pb-12 md:pt-6 max-w-6xl mx-auto">
         
