@@ -15,22 +15,22 @@ export default function Sidebar() {
           />
         </div>
         
-        <a href="#home" className="group w-full p-6 bg-white dark:bg-[#111] hover:bg-zinc-50 dark:hover:bg-black text-zinc-500 dark:text-zinc-400 transition-all duration-300 flex flex-col items-center gap-2">
+        <a href="#home" className="group w-full p-6 bg-white dark:bg-[#111] hover:bg-zinc-50 dark:hover:bg-black text-black dark:text-zinc-400 transition-all duration-300 flex flex-col items-center gap-2">
           <Home size={32} className="group-hover:scale-125 group-hover:-translate-y-1 group-hover:text-amber-500 transition-all duration-300" />
           <p className="group-hover:text-amber-500 transition-colors duration-300 font-medium">HOME</p>
         </a>
         
-        <a href="#about" className="group w-full p-6 bg-white dark:bg-[#111] hover:bg-zinc-50 dark:hover:bg-black text-zinc-500 dark:text-zinc-400 transition-all duration-300 flex flex-col items-center gap-2">
+        <a href="#about" className="group w-full p-6 bg-white dark:bg-[#111] hover:bg-zinc-50 dark:hover:bg-black text-black dark:text-zinc-400 transition-all duration-300 flex flex-col items-center gap-2">
           <User size={32} className="group-hover:scale-125 group-hover:-translate-y-1 group-hover:text-amber-500 transition-all duration-300" />
           <p className="group-hover:text-amber-500 transition-colors duration-300 font-medium">ABOUT</p>
         </a>
         
-        <a href="#tools" className="group w-full p-6 bg-white dark:bg-[#111] hover:bg-zinc-50 dark:hover:bg-black text-zinc-500 dark:text-zinc-400 transition-all duration-300 flex flex-col items-center gap-2">
+        <a href="#tools" className="group w-full p-6 bg-white dark:bg-[#111] hover:bg-zinc-50 dark:hover:bg-black text-black dark:text-zinc-400 transition-all duration-300 flex flex-col items-center gap-2">
           <Wrench size={32} className="group-hover:scale-125 group-hover:-translate-y-1 group-hover:text-amber-500 transition-all duration-300" />
           <p className="group-hover:text-amber-500 transition-colors duration-300 font-medium">TOOLS</p>
         </a>
         
-        <a href="#contact" className="group w-full p-6 bg-white dark:bg-[#111] hover:bg-zinc-50 dark:hover:bg-black text-zinc-500 dark:text-zinc-400 transition-all duration-300 flex flex-col items-center gap-2">
+        <a href="#contact" className="group w-full p-6 bg-white dark:bg-[#111] hover:bg-zinc-50 dark:hover:bg-black text-black dark:text-zinc-400 transition-all duration-300 flex flex-col items-center gap-2">
           <Mail size={32} className="group-hover:scale-125 group-hover:-translate-y-1 group-hover:text-amber-500 transition-all duration-300" />
           <p className="group-hover:text-amber-500 transition-colors duration-300 font-medium">CONTACT</p>
         </a>

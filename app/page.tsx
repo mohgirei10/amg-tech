@@ -25,7 +25,10 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 export default function Portfolio() {
   return (
-    <div className={`${montserrat.className} bg-zinc-50 dark:bg-black min-h-screen text-zinc-600 dark:text-zinc-400 scroll-smooth transition-colors duration-300`}>
+    <div style={{
+        backgroundImage: 'url("/assets/skulls.png")',
+      }}
+     className={`${montserrat.className} bg-zinc-50 dark:bg-black min-h-screen text-zinc-600 dark:text-zinc-400 scroll-smooth transition-colors duration-300`}>
       
       {/* Added pb-24 for mobile to ensure content isn't hidden behind the bottom navbar */}
       <main className="md:ml-30 p-12 md:p-12 pb-24 md:pb-12 md:pt-6 max-w-6xl mx-auto">
@@ -35,7 +38,7 @@ export default function Portfolio() {
           <h1 className="text-4xl md:text-6xl font-black mb-4 text-zinc-900 dark:text-white transition-colors">
             <span className="block md:inline">AMG-TECH </span>SOLUTIONS
           </h1>
-          <p className="text-zinc-500 dark:text-zinc-400 mb-8 tracking-widest uppercase font-medium">A Software Developer.</p>
+          <p className="text-amber-500 mb-8 tracking-widest uppercase font-medium">A Software Developer.</p>
           <div className="relative w-full max-w-3xl mx-auto h-[50vh] md:h-175 drop-shadow-2xl dark:drop-shadow-none">
             <Image 
               src="/assets/image.png" 
@@ -298,7 +301,7 @@ get in touch with us
 </section>
 
         {/* Footer */}
-        <footer className="py-8 border-t border-zinc-200 dark:border-zinc-900 text-center text-zinc-400 text-sm">
+        <footer className="py-8 border-t border-zinc-200 dark:border-zinc-900 text-center text-zinc-800 text-sm">
           <p>AMG-TECH Solutions {new Date().getFullYear()} © All rights reserved.</p>
         </footer>
 
